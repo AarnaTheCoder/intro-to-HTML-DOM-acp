@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML DOM acp</title>
+        <style>
+            .alert{
+                color: rgb(22, 78, 234);
+                background-color: rgb(167, 208, 215);
+                padding: 5px;
+            }
+        </style>
+         </head>
+         <body>
+          <header>
+          <h1 id="header">Welcome</h1>
+          <p>hello</p>
+          </header>
+              <p>There are eight planets in our Solar System.</p>
+         <script>
+          let div=document.createElement('div');
+          div.id="paragraph"
+          div.className="alert";
+          div.innerHTML="<p>Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto, which until recently was considered to be the farthest planet, is now classified as a dwarf planet.</p>";
+          document.body.append(div);
+      
+          let heading=document.getElementById("header");
+          heading.innerHTML="		&#128509;";
+      
+      document.querySelector('header p').innerHTML="<strong</strong>"
+      
+      
+      
+      </script>
+         </body>
+      </html>
+      
